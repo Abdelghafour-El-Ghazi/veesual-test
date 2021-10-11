@@ -1,0 +1,10 @@
+.albums {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0.5rem 15rem;
+  background: white;
+  border-radius: 3rem;
+  height: fit-content;
+  padding: 1rem;
+}

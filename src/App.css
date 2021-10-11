@@ -1,0 +1,43 @@
+.mainLogin-intro {
+  font-size: 2rem;
+  font-weight: 700;
+  text-align: center;
+}
+.mainLogin-button {
+  background: #1ed760;
+  color: white;
+  font-size: 1.1rem;
+  font-weight: 700;
+  padding: 0.6rem 1.3rem;
+  border-radius: 2rem;
+  border: #1ed760 1px solid;
+}
+.mainLogin-button:hover {
+  background: white;
+  color: #1ed760;
+}
+
+.mainLogin,
+.search {
+  display: flex;
+  margin: 0 7rem;
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-around;
+  background-color: #fff;
+  border-radius: 1rem;
+  height: 20rem;
+}
+.search {
+  margin: auto 15rem;
+  height: 4rem;
+  max-width: 62rem;
+  flex-direction: row;
+  justify-content: center;
+}
+.search > * {
+  margin: 2rem;
+}
+.searchText {
+  font-weight: 800;
+}
