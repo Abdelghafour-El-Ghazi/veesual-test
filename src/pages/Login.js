@@ -30,9 +30,9 @@ const Login = () => {
   return (
     <div className='mainLogin'>
       <div className='mainLogin-intro'>{welcomeText}</div>
-      <a className='mainLogin-button' onClick={authorize}>
+      <button className='mainLogin-button' onClick={authorize}>
         Get Started
-      </a>
+      </button>
     </div>
   );
 };
