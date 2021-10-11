@@ -2,7 +2,7 @@ import React from "react";
 
 const spotify = {
   clientID: "86b79340a1b44160bc0f24fd00028cae",
-  redirectURI: "http://localhost:3000/",
+  redirectURI: "https://veesual-spotify-abdelghafour.netlify.app/",
 };
 
 const authLink = `https://accounts.spotify.com/authorize?client_id=${spotify.clientID}&redirect_uri=${spotify.redirectURI}&response_type=token`;
